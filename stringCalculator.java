@@ -12,23 +12,23 @@ public class stringCalculator {
 		{
 			for(int i=0; i<arr.length;i++) 
 			{
-				sum += (arr[i] - 48);
+				sum += (arr[i] - 48);	//add integer value
 			}
 		}
 		else
 		{
-			sum = 0; 
+			sum = 0; 	//if size of String is zero
 		}
 		
-		System.out.println("Sum is " +sum);
+		System.out.println("Sum is " +sum);	//output
 	}
 	public static void main(String[] args)
 	{
-		String str = "//[*][%]\\n1iu*2%3";
+		String str = "//[*][%]\\n1iu*2%3";	//input
 		
-		stringCalculator cal = new stringCalculator();	
+		stringCalculator cal = new stringCalculator();		//object creation
 		
-		//add method
+		//add method called
 		cal.add(str);
 		
 	}
